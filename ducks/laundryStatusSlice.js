@@ -7,9 +7,9 @@ const laundryStatusSlice = createSlice({
   reducers: {
     addLoad: (state, action) => state.concat(action.payload),
     removeLoad: (state, action) => {
-      const thing = state
-      thing.splice(action.payload, 1)
-      return thing
+      const newState = state
+      newState.splice(action.payload, 1)
+      return newState
     },
   },
 })

@@ -1,16 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 
-import {
-  Card,
-  CardItem,
-  Text,
-  Button,
-  Icon,
-  Left,
-  Body,
-  Right,
-} from 'native-base'
+import { Card, CardItem, Text, Button, Body, Right } from 'native-base'
 
 import { removeLoad } from '../ducks/laundryStatusSlice'
 
